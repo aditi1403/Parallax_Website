@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    background-image: url('image_files/gateway-india.avif'); /* replace with your background image */
+    background-image: url('image_files/Varanasi-Ghats.jpg'); /* replace with your background image */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -28,7 +28,7 @@ body {
     font-size: 80px;
     font-weight: bold;
     color: white;
-    text-align: center;
+    text-align: right;
     text-shadow: 4px 4px 20px rgba(128, 128, 128, 0.107);
     margin-bottom: 80px;
     /* z-index: 1; */
@@ -52,8 +52,8 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100px;
-    margin-left: 80px;
-    margin-bottom: 250px;
+    margin-left: 95px;
+    margin-bottom: 100px;
     /* padding: 200px; */
     /* border-radius: 50%; */
  }
@@ -67,8 +67,8 @@ body {
 }
 
 .box::before {
-    margin-top: 83px;
-    margin-left: 45px;
+    margin-top: 43px;
+    margin-left: 65px;
     content: "";
     display: block;
     width: 310px;
@@ -104,5 +104,5 @@ body {
     word-wrap: normal;
     /* padding: 0; */
     /* margin: 0; */
-    margin-left: 25px;
+    margin-left: 40px;
 }
