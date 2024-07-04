@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-image: url('image_files/ladakh_back.jpg'); /* replace with your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.nav {
+    font-size: small;
+    width: 300px;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 20px rgba(128, 128, 128, 0.107);
+    margin-bottom: 80px;
+    /* z-index: 1; */
+}
+
+
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.nav a:hover {
+    color: #ccc;
+}
+
+.content {
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin-left: 100px;
+    /* padding: 200px; */
+    /* border-radius: 50%; */
+ }
+
+.box{
+    width: 390px; 
+    height: 390px; 
+    border-radius: 800px; 
+    background-color: #202020a6; 
+    margin-top: -100px;
+}
+
+.box::before {
+    margin-top: 43px;
+    margin-left: 65px;
+    content: "";
+    display: block;
+    width: 310px;
+    height: 310px;
+    background-color: #c0c5cfaa;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.412);
+    border-radius: 50%;
+}
+
+.info {
+    width: 250px;
+    word-wrap: normal;
+    /* align-items: center; */
+    vertical-align: middle;
+    margin-top: -270px;
+    margin-left: 20px;
+    border-radius: 10%;
+    font-size: 13px;
+}
+
+.info h2 {
+    width: 250px;
+    align-items: center;
+    word-wrap: normal;
+    /* margin: 10px; */
+    font-size: 30px;
+}
+
+.places {
+    font-size: small;
+    width: 220px;
+    align-items: center;
+    word-wrap: normal;
+    /* padding: 0; */
+    /* margin: 0; */
+    margin-left: 40px;
+}
